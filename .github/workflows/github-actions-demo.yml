@@ -15,8 +15,8 @@ jobs:
         run: npm run build
       # - name: running prettier
       #   run: npm run prettier
-      - name: running eslint
-        run: npm run lint
+      # - name: running eslint
+      #   run: npm run lint
       - name: running tests
         run: npm run test
       - run: echo "This job's status is ${{ job.status }}."
